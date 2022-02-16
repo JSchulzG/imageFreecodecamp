@@ -124,16 +124,24 @@
 }
 #projects {
 	display: grid;
-	margin: 5vh 5vw 5vh 5vw;
+	
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 10px;
-	background-color: blue;
+	background-color: grey;
 }
 .project-container {
 	background-color: white;
-	margin: 10px;
-	
+	margin: 20px 30px;
+	border: 2px solid black;
+	border-radius: 5px;
 }
-.project-title {
+.project-tile {
 	text-align: center;
+	border-top: 2px solid black;
+	text-decoration: none;
+	color: black;
+}
+.project-img {
+	width: 100%;
+	
 }
