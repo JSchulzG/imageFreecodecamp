@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	display: grid;
+	grid-template-columns: 15vh 1fr;
+	background-color: grey;
+	height: 8vh;
+}
+#navbar header {
+
+	align-items: center;
+	margin-left: 15px;
+	font-size: 6vh;
+}
+#navbar ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+#navbar li {
+	list-style: none;
+	align-items: center;
+	height: 8vh;
+}
+#navbar a {
+	display: block;
+	height: 8vh;
+	font-size: 5vh;
+	padding: 0.5vh 2em 0em 0.5em;
+	text-decoration: none;
+	color: white;
+}
+#navbar a:hover {
+	background-color: #1f1f1f;
+}
+#main-container {
+	position: relative;
+
+}
+@media (max-width: 640px) {
+	#navbar {
+		height: 10vh;
+		
+	}
+	#navbar header {
+		
+	}
+	#navbar ul {
+		height: 10vh;
+	}
+	#navbar li {
+		height: 10vh;
+	}
+	#navbar a {
+		height: 10vh;
+		font-size: 2.5vh;
+		padding-top: 3vh;
+	}
+}
+@media (max-height: 450px ) {
+	#navbar {
+		height: 10vh;
+		
+	}
+	#navbar header {
+		
+	}
+	#navbar ul {
+		height: 10vh;
+	}
+	#navbar li {
+		height: 10vh;
+	}
+	#navbar a {
+		height: 10vh;
+		font-size: 6vh;
+		padding-top: 1vh;
+	}
+}
+#welcome-section {
+	position: relative;
+	padding-top: 5rem;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #A01312;
+	size: viewport;
+	color: black;
+	font-family: times;
+	
+}
+#welcome-section h1 {
+	cursor: default;
+	font-family: times;
+	font-weight: bold;
+	font-size: 8vw;
+	transition-property: color;
+	transition-duration: 2s;
+	transition-delay: 1s;
+}
+#welcome-section h1:hover {
+	color: #A01312;
+	
+}
+#welcome-section p {
+	text-align: center;
+	margin: 0 5vw 0 5vw;
+	font-size: 3vw;
+}
+#projects {
+	display: grid;
+	margin: 5vh 5vw 5vh 5vw;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	background-color: blue;
+}
+.project-container {
+	background-color: white;
+	margin: 10px;
+	
+}
+.project-title {
+	text-align: center;
+}
