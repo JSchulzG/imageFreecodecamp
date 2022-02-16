@@ -143,5 +143,12 @@
 }
 .project-img {
 	width: 100%;
-	
+	height: 200px;
+}
+#projects > a {
+	text-decoration: none;
+}
+#contact {
+
+	text-align: center;
 }
